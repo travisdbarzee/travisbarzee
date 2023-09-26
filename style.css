@@ -288,8 +288,8 @@ p {
 
 .about-container {
   position: absolute;
-  right: -100px;
-  bottom: -150px;
+  right: -5%;
+  bottom: -18%;
 }
 
 .about-header {
@@ -495,26 +495,26 @@ p {
     margin-top: 10%;
   }
   .projects-container {
-    top: 57%;
+    top: 75%;
     right: 9%;
   }
   .projects {
     gap: 5px;
   }
   .projects-horizontal {
-    top: 55%;
+    top: 73%;
     right: 5%;
     width: 275px;
   }
   .projects-vertical {
-    top: 55%;
+    top: 73%;
     right: 5%;
     height: 220px;
   }
   .about-container {
     position: absolute;
     left: 5%;
-    bottom: -15%;
+    bottom: -20%;
   }
   .about-header {
     gap: 8px;
