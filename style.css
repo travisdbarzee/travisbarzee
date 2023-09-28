@@ -496,26 +496,26 @@ p {
     margin-top: 10%;
   }
   .projects-container {
-    top: 75%;
+    top: 80%;
     right: 9%;
   }
   .projects {
     gap: 5px;
   }
   .projects-horizontal {
-    top: 73%;
+    top: 77%;
     right: 5%;
     width: 275px;
   }
   .projects-vertical {
-    top: 73%;
+    top: 77%;
     right: 5%;
     height: 220px;
   }
   .about-container {
     position: absolute;
     left: 2%;
-    bottom: -40%;
+    bottom: -45%;
     padding: 50px 0;
   }
   .about-header {
