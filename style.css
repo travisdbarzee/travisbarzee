@@ -10,7 +10,6 @@
 * {
   padding: 0;
   margin: 0;
-  overflow: hidden;
 }
 
 body {
@@ -318,7 +317,7 @@ p {
     transform: translate(0, 0);
   }
   100% {
-    transform: translate(-250px, -200px);
+    transform: translate(-250px, -175px);
   }
 }
 
@@ -457,6 +456,8 @@ p {
   body {
     overflow: visible;
     scroll-behavior: smooth;
+    /* this might work? */
+    touch-action: manipulation;
   }
   h2 {
     font-size: 24px;
@@ -475,19 +476,19 @@ p {
     left: 0;
     width: 200px;
   }
+  nav {
+    padding-top: 7vh;
+  }
   .top-left {
-    margin-left: 10vw;
+    margin-left: 12vw;
   }
   .top-right {
     margin-right: 2vw;
+    gap: 4vw;
   }
   h1 {
-    font-size: 72px;
-    letter-spacing: 2px;
-  }
-  .welcome-container {
-    display: flex;
-    gap: 2px;
+    font-size: 68px;
+    letter-spacing: 0;
   }
   .slide {
     left: 7%;
@@ -513,8 +514,9 @@ p {
   }
   .about-container {
     position: absolute;
-    left: 5%;
-    bottom: -20%;
+    left: 2%;
+    bottom: -40%;
+    padding: 50px 0;
   }
   .about-header {
     gap: 8px;
@@ -530,7 +532,7 @@ p {
       transform: translate(0, 0);
     }
     100% {
-      transform: translate(20px, -150px);
+      transform: translate(70px, 0);
     }
   }
 }
